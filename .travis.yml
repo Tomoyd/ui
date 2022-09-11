@@ -15,4 +15,4 @@ deploy:
   keep_history: true
   local_dir: storybook-static
   on:
-    branch: main
+    branch: master
