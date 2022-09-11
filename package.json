@@ -1,7 +1,19 @@
 {
-  "name": "reactui",
+  "name": "@tomoyd/reactui",
+  "description": "测试reactui库",
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Component"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index",
+  "module": "dist/index",
+  "types": "dist/index.d.ts",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-syntax-flow": "^7.14.5",
@@ -73,8 +85,10 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "build-ts":"tsc -p tsconfig.build..json",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublish": "npm run build"
   },
   "eslintConfig": {
     "extends": [
