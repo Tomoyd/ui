@@ -1,5 +1,6 @@
 import React from 'react';
 import cls from 'classnames';
+import './Button.less';
 export enum ButtonType {
   Primary = 'primary',
   Danger = 'danger',
@@ -18,7 +19,7 @@ export interface ButtonProps {
   btnSize?: ButtonSize;
   href?: string;
   disabled?: boolean;
-  onClick?: () => {};
+  onClick?: (...args: any[]) => void;
 }
 
 export const Button: React.FC<ButtonProps> = ({
