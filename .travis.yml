@@ -1,11 +1,11 @@
 language: node_js
 node_js:
   - "stable"
-env:
-  - CI=true
 cache:
   directories:
   - node_modules
+env:
+  - CI=true
 script:
   - npm run build-storybook
 deploy:
