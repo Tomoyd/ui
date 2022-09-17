@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './styles/normalize.less';
 import './App.less';
-import { Button } from './components/button/Button';
+import { Button } from './components/Button/Button';
 
 function App() {
   return (
