@@ -103,7 +103,6 @@ const config = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: './components/css/[name].css',
-      //   chunkFilename: './css/[name].css',
     }),
   ],
 };

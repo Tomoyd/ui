@@ -3,12 +3,15 @@
     "outDir": "dist",
     "module": "esnext",
     "target": "ESNext",
+    "noUnusedParameters": true,
+    "noEmit": true,
     "declaration": true,
     "jsx":"react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports":true,
     "skipLibCheck": true,
   },
+  
   "include": [
     "src/components/*"
   ],

@@ -1,3 +1,3 @@
-export * as Button from './Button/Button';
+export { Button } from './Button/Button';
 
-export * as Text from './Text/Text';
+export { Text } from './Text/Text';
